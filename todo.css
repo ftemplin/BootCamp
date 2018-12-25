@@ -1,0 +1,31 @@
+body {
+	background: Linen;
+}
+li {
+	border: 2px solid red;
+}
+#special {
+	background: Yellow;
+}
+#reg_form {
+	border: 2px solid Blue;
+	background: Grey;
+}
+.completed {
+	text-decoration: line-through; 
+}
+
+#Priority_high {
+	border:4px solid Grey;
+	background: rgba(200,0,0,.7);
+}
+
+#Priority_standard {
+	border:4px solid Grey;
+	background: rgba(200,50,0,.7);
+}
+
+#Priority_low {
+	border:4px solid Grey;
+	background: rgba(0,200,50,.7);
+}
