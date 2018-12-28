@@ -1,11 +1,13 @@
 /*font-family*/
 p {
-	font-family: Arial;
+	/*font-family: Arial;*/
+	font-family: 'Charm', cursive;
 	font-size: 18px;
 }
 
 h1 {
-	font-family: Georgia;
+	/*font-family: Georgia;*/
+	font-family: 'Crimson Text', serif;
 }
 
 /*font-size*/
