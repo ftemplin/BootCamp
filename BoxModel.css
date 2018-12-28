@@ -1,0 +1,55 @@
+p {
+/*Content = Width and Height*/
+	/*width: 200px;*/
+	width: 50%;
+
+/*Border*/
+border: 2px solid blue;
+/*Padding*/
+	padding: 10px;
+/*Margin*/
+
+margin: 20px;
+
+/*Page element CSS*/
+}
+.banner{
+	width: 100%;
+	border:2px solid blue;
+}
+
+td {
+	width: 100px;
+	height: 100px;
+	/*background: Grey;*/
+
+}
+
+.vertical {
+	border-right: 1px solid black;
+	border-left: 1px solid black;
+}
+
+.horizontal {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+#tttTitle {
+	margin: 0;
+
+}
+#ticTacToe {
+	text-align: center;
+	border:1px solid red;
+	padding: 10px;
+}
+
+table {
+	margin: auto;
+}
+
+/*.centerCol {
+	border-top: 1px solid black;
+	border-bottom:  1px solid black;
+}*/
