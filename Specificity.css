@@ -1,0 +1,9 @@
+/*ul {
+	color:purple; 
+}*/
+body {
+	color: Red;
+}
+li:nth-of-type(even){
+	background: grey;
+} 

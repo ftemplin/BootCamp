@@ -1,0 +1,36 @@
+/*font-family*/
+p {
+	font-family: Arial;
+	font-size: 18px;
+}
+
+h1 {
+	font-family: Georgia;
+}
+
+/*font-size*/
+p::first-letter { 
+  font-size: 3.0em;
+  color: #0050FF;
+  font-family: Algerian;
+  font-style: italic;
+}
+
+
+/*font-weight*/
+
+/*line-height*/
+
+/*text-align*/
+
+/*text-decoration*/
+
+.banner {
+	position: absolute;
+	  left: 0px;
+	  top: 0px;
+	  z-index: -1;
+	font-family: cursive;
+	height: 50%;
+	width: 100%;
+}
