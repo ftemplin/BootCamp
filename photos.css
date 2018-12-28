@@ -1,0 +1,29 @@
+/*font-family: 'Charm', cursive;*/
+
+p {
+	font-family: 'Charm', cursive;
+	font-size: 40px;
+	font-weight: bold; 
+	margin-left: 1.66%;
+	width: 30%;
+	border-bottom: 3px solid Grey;
+	padding-bottom: 10px;
+}
+
+div img {
+	width: 30%;
+	float: left;
+	margin: 1.66%;
+	height: 200px;
+	/*border:3px solid Grey;*/
+
+	/*max-height: 300px;*/
+}
+
+h3	{
+	margin-left: 1.66%;
+}
+
+body {
+	background: linen;
+}
