@@ -75,3 +75,18 @@ li a:hover {
 body {
 	background-color: linen;
 }
+div img {
+	width: 30%;
+	float: left;
+	margin: 1.66%;
+	height: 200px;
+	/*border:3px solid Grey;*/
+
+	/*max-height: 300px;*/
+}
+
+.centerContent {
+	background-color: rgba(255, 255, 255, 1);
+	border: 2px solid grey;
+	text-align: center;
+}
