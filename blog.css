@@ -39,7 +39,18 @@ margin-bottom: 5px;
 	float: right;
 }
 
-hr { 
+.topLine { 
+  display: block; 
+  content: ""; 
+  height: 30px; 
+  margin-top: 0px; 
+  border-style: solid; 
+  border-color: #8c8b8b; 
+  border-width: 1px 0 0px 0; 
+  border-radius: 20px; 
+}
+
+.bottomLine { 
   display: block; 
   content: ""; 
   height: 30px; 
