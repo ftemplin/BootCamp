@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bootstrap Grid</title>
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<style type="text/css">
+.colBorder {
+	background: grey;
+	border: 1px solid black;
+}
+.nestBorder {
+	background: pink;
+	border: 1px dashed red;
+}
+body {
+	border: 3px solid blue;
+}
+</style>
+</head>
+<body>
+	<!-- =====================================-->
+	<!-- ------------OBJCTIVES----------      -->
+	<!-- 1. Understand Purpose of Grid System -->
+	<!-- 2. Understand the 4 different sizes  -->
+	<!-- 3. Write Nested Grids                -->
+	<!-- ===============================      -->
+
+	<!-- The Grid System Dynamic contetn adjustment for all screen sizes -->
+
+
+<div class="container">
+	<!-- <div class="row">
+		<div class="col-lg-2 colBoarder">Col-lg-2 row 1</div>
+		<div class="col-lg-8 colBoarder">Col-lg-8 row 2</div>
+		<div class="col-lg-2 colBoarder">Col-lg-2 row 3</div>
+		
+	</div> -->
+	<div class="row">
+		<div class="col-lg-3 col-md-3 col-sm-6 col colBorder">Dynamic col row 1</div>
+		<div class="col-lg-3 col-md-3 col-sm-6 col colBorder">Dynamic col row 2</div>
+		<div class="col-lg-3 col-md-3 col-sm-6 col colBorder">Dynamic col row 3</div>
+		<div class="col-lg-3 col-md-3 col-sm-6 col colBorder">Dynamic col row 4</div>
+	</div>
+	<!-- if you donot specify large it will assume same as medium -->
+	<div class="row">
+		<div class="col-md-3 col-sm-6 col colBorder">Dynamic col row 1</div>
+		<div class="col-md-3 col-sm-6 col colBorder">Dynamic col row 2</div>
+		<div class="col-md-3 col-sm-6 col colBorder">Dynamic col row 3</div>
+		<div class="col-md-3 col-sm-6 col colBorder">Dynamic col row 4</div>
+	</div>
+	<!-- Nesting grids in a grid -->
+	<div class="row">
+		<div class="col-md-3 col-sm-6 col colBorder">
+			<div class="row">
+				<div class="col-md-6 colBorder">nested row1</div>
+				<div class="col-md-6 colBorder">nested row2</div>
+			</div>	
+		</div>
+		<div class="col-md-3 col-sm-6 col colBorder">Dynamic col row 2</div>
+		<div class="col-md-3 col-sm-6 col colBorder">Dynamic col row 3</div>
+		<div class="col-md-3 col-sm-6 col colBorder">
+			<div class="row">
+				<div class="col-lg-2 nestBorder">text</div>
+				<div class="col-lg-2 nestBorder">text</div>
+				<div class="col-lg-2 nestBorder">text</div>
+				<div class="col-lg-2 nestBorder">text</div>
+				<div class="col-lg-2 nestBorder">text</div>
+				<div class="col-lg-2 nestBorder">text</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- <div class="row">
+		<div class="col-lg-1 colBoarder">Col-lg-1 row 1</div>
+		<div class="col-lg-1 colBoarder">Col-lg-8 row 2</div>
+		<div class="col-lg-1 colBoarder">Col-lg-2 row 3</div>
+		<div class="col-lg-1 colBoarder">Col-lg-1 row 4</div>
+		<div class="col-lg-1 colBoarder">Col-lg-8 row 5</div>
+		<div class="col-lg-1 colBoarder">Col-lg-2 row 6</div>
+		<div class="col-lg-1 colBoarder">Col-lg-1 row 7</div>
+		<div class="col-lg-1 colBoarder">Col-lg-8 row 8</div>
+		<div class="col-lg-1 colBoarder">Col-lg-2 row 9</div>
+		<div class="col-lg-1 colBoarder">Col-lg-1 row 10</div>
+		<div class="col-lg-1 colBoarder">Col-lg-8 row 11</div>
+		<div class="col-lg-1 colBoarder">Col-lg-2 row 12</div>
+	</div>
+	<div class="row">
+		<div class="col-lg-1 col-md-2 colBoarder">Col-lg-1 row 1</div>
+		<div class="col-lg-1 col-md-2 colBoarder">Col-lg-8 row 2</div>
+		<div class="col-lg-1 col-md-2 colBoarder">Col-lg-2 row 3</div>
+		<div class="col-lg-1 col-md-2 colBoarder">Col-lg-1 row 4</div>
+		<div class="col-lg-1 col-md-2 colBoarder">Col-lg-8 row 5</div>
+		<div class="col-lg-1 col-md-2 colBoarder">Col-lg-2 row 6</div>
+		<div class="col-lg-1 col-md-2 colBoarder">Col-lg-1 row 7</div>
+		<div class="col-lg-1 col-md-2 colBoarder">Col-lg-8 row 8</div>
+		<div class="col-lg-1 col-md-2 colBoarder">Col-lg-2 row 9</div>
+		<div class="col-lg-1 col-md-2 colBoarder">Col-lg-1 row 10</div>
+		<div class="col-lg-1 col-md-2 colBoarder">Col-lg-8 row 11</div>
+		<div class="col-lg-1 col-md-2 colBoarder">Col-lg-2 row 12</div>
+	</div> -->
+</div>
+
+
+
+</body>
+</html>
