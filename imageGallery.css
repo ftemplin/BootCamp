@@ -2,3 +2,17 @@ body {
 	padding-top: 70px;
 	/*border:1px solid blue;*/
 }
+
+.jumbotron {
+	color: #2c3e50;
+	/*color: blue;*/
+}
+
+
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+}
+
+.navbar-inverse .navbar-brand {
+    color: rgba(94, 155, 255, 1);
+}
