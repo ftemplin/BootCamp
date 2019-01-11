@@ -1,0 +1,20 @@
+ #content {
+	text-align: center;
+	padding-top: 25%;
+}
+
+
+body, html {
+  height: 100%;
+  background-image: url("images/CircuitBoard.jpg")
+  /*background-image: url("images/transparent.png")*/
+  /*background-repeat: no-repeat;*/
+}
+.bg {
+	background-image: url("images/transparent.png")
+	/*background-position: center;*/
+	/*background-repeat: no-repeat;*/
+	/*background-size: cover;*/
+
+}
+
