@@ -2,19 +2,33 @@
 	text-align: center;
 	padding-top: 25%;
 }
+.bg {
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: relative;
+}
+/*Opaque background*/
+.bg::after {
+  content: "";
+  background: url("images/CircuitBoard.jpg");
+  opacity: 0.15;
+ 
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+}
 
-
-body, html {
+/*body, html {
   height: 100%;
   background-image: url("images/CircuitBoard.jpg")
-  /*background-image: url("images/transparent.png")*/
-  /*background-repeat: no-repeat;*/
+  background-image: url("images/transparent.png")
+  background-repeat: no-repeat;
 }
-.bg {
-	background-image: url("images/transparent.png")
-	/*background-position: center;*/
-	/*background-repeat: no-repeat;*/
-	/*background-size: cover;*/
 
-}
 
