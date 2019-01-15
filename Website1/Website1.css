@@ -1,7 +1,14 @@
+ .container{
+ margin-left: 0px;
+ margin-right: 0px;
+ }
  #content {
 	text-align: center;
 	padding-top: 15%;
   padding-bottom: 10px;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin: 0px;
 }
 .bg {
   width: 100%;
@@ -26,10 +33,11 @@
 }
 /*---------CSS for Info page---------------*/
 
-/*body {
+body {
   padding-top: 70px;
+  padding-left: 0px;
   /*border:1px solid blue;*/
-}*/
+}
 
 .jumbotron {
   color: #2c3e50;
@@ -48,11 +56,6 @@
 
 
 
-/*body, html {
-  height: 100%;
-  background-image: url("images/CircuitBoard.jpg")
-  background-image: url("images/transparent.png")
-  background-repeat: no-repeat;
-}
+
 
 
