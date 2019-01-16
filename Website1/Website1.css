@@ -1,40 +1,38 @@
  .container{
- margin-left: 0px;
- margin-right: 0px;
+/* margin-left: 0px;
+ margin-right: 0px;*/
  }
- #content {
+ .content {
 	text-align: center;
 	padding-top: 15%;
-  padding-bottom: 10px;
-  padding-left: 0px;
-  padding-right: 0px;
-  margin: 0px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  /*padding-right: 0px;
+  margin: 0px;*/
 }
-.bg {
+body, html {
+  position: absolute;
   width: 100%;
   height: 100%;
-  display: block;
-  position: relative;
+  margin: 0;
 }
-/*Opaque background*/
-.bg::after {
-  content: "";
-  background: url("images/CircuitBoard.jpg");
-  opacity: 0.15;
- 
-  background-repeat: no-repeat;
-  background-size: cover;
+body:after {
+  content: '';
+  position: absolute;
   top: 0;
   left: 0;
-  bottom: 0;
-  right: 0;
-  position: absolute;
-  z-index: -1;   
+  width: 100%;
+  height: 100%;
+  background-image: url("images/CircuitBoard.jpg");
+  background-size: cover;
+  opacity: 0.3;
+  z-index: -1;
+}   
 }
 /*---------CSS for Info page---------------*/
 
 body {
-  padding-top: 70px;
+  padding-top: 100px;
   padding-left: 0px;
   /*border:1px solid blue;*/
 }
