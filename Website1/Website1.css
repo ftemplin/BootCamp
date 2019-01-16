@@ -10,6 +10,7 @@
   /*padding-right: 0px;
   margin: 0px;*/
 }
+
 body, html {
   position: absolute;
   width: 100%;
@@ -28,6 +29,11 @@ body:after {
   opacity: 0.3;
   z-index: -1;
 }   
+
+
+hr {
+  border-top: 1px solid #f8f8f8;
+  border-bottom: 1px solid rgba(0,0,0,0.2);
 }
 /*---------CSS for Info page---------------*/
 
