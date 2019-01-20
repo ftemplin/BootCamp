@@ -15,6 +15,10 @@
   margin: 0px;*/
 }
 
+.bodyContent {
+  text-align: center;
+}
+
 body, html {
   position: absolute;
   width: 100%;
