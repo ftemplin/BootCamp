@@ -48,5 +48,7 @@ h2.contentHeader{
 }
 
 .picContent p {
-	color: #f498b8
+	color: #f498b8;
+	font-weight: 1000;
+	font-size: 1.1rem;
 }
