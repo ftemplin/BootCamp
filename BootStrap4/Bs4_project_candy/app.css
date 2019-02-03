@@ -40,6 +40,10 @@ body {
 }
 }
 
+.content {
+	margin-top: 25px;
+}
+
 h2.contentHeader{
 	color: #ea1c2c;
 	font-size: 2.5rem;
