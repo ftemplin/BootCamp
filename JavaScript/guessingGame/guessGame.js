@@ -19,7 +19,6 @@ var secretNumber = 4;
 	else if(guess < secretNumber){
 		alert("You guessed low");
 	 }else{
-
 	 }
 	}
 alert("You guessed the number!");
