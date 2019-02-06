@@ -7,5 +7,10 @@ function myFunction (){
 }
 
 function square(num){
-	return num * num;
+	var num = prompt("Enter a number");
+	var result = square(num);
+	document.getElementById("demo").innerHTML = "result";
 }
+
+// var num = 10;
+// var squared = square(num)
