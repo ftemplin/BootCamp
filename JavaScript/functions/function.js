@@ -35,7 +35,7 @@ function even(num){
 	}
 }
 
-// factorial (4) = 4 X 3 X 2 X 1 
+// factorial (4) = 4 X 3 X 2 X 1 ---------------------------------------------
 function factorial (num){
 	// define a result variable
 	var result = 1;
@@ -47,12 +47,21 @@ function factorial (num){
 		//return the result variable
 		return result;
 	}
-// Find and Replace function
+// Find and Replace function---------------------------------------------
 	function findReplace(str){
 		//replace one cahracter with another
 		var newStr = str.replace(/-/g, '_');
 		return newStr;
 	}
+
+// Find replace str
+function myFunction() {
+  var str = document.getElementById("demo").innerHTML; 
+  var res = str.replace("Microsoft", "W3Schools");
+  document.getElementById("demo").innerHTML = res;
+}
+
+
 
 //Capitalization function ----------------------------------------------
 // function capitalize(str){
