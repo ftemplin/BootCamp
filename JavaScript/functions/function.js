@@ -23,3 +23,55 @@ function square (){
 	document.write(num);
 	// document.write("Have a nice day!");
 }
+
+function capitalize(){
+	// Check to make sure input is a string
+	if(typeof str === "number"){
+		return "thats not a string"
+	}
+	return str.chartAt(0).toUpperCase() + str.slice(1);
+}
+
+var city = document.querySelector('wordInput')
+var capital = capitalize(city);
+
+document.getElementById("demo").innerHTML = 5 + 6;
+
+
+// StackOverFlow
+var titleInput  = document.getElementById("title");
+var display2letter  = document.getElementById("display2letter");
+var display3letter  = document.getElementById("display3letter");
+
+function clearAndShow () {
+    // Split input box value by comma
+    titles = titleInput.value.split(",");
+
+    // Reset display divs
+    display2letter.innerHTML = "";
+    display3letter.innerHTML = "";
+
+    // Cache length so it's not recalculated on each iteration.
+    var len = titles.length;
+    var twoletter = [];
+    var threeletter = [];
+
+    for (i = 0; i < len; i++) {
+        // Check for a-z, A-Z, length 2 or 3
+        if (!titles[i].match(/^[a-zA-Z]{2,3}$/)) {
+            throw new Error("Please use only alphabet letters.");
+            break;
+        }
+
+        // Dump into storage arrays.
+        if(titles[i].length == 2) {
+                twoletter.push(titles[i]);
+        }
+        else {
+            threeletter.push(titles[i]);
+        }
+    }
+
+    display2letter.innerHTML += "Titles, 2 letters: " + twoletter.join(", ") + "<br/>";
+    display3letter.innerHTML += "Titles, 3 letters: " + threeletter.join(", ") + "<br/>";
+}
