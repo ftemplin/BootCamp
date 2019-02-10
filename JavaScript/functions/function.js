@@ -35,6 +35,25 @@ function even(num){
 	}
 }
 
+// factorial (4) = 4 X 3 X 2 X 1 
+function factorial (num){
+	// define a result variable
+	var result = 1;
+	//calculate factorial and store value in result
+	for(var i =2; i <= num; i++){
+		result = result * i;
+		// Shortened result *=i;
+		}
+		//return the result variable
+		return result;
+	}
+// Find and Replace function
+	function findReplace(str){
+		//replace one cahracter with another
+		var newStr = str.replace(/-/g, '_');
+		return newStr;
+	}
+
 //Capitalization function ----------------------------------------------
 // function capitalize(str){
 // 	// Check to make sure input is a string
