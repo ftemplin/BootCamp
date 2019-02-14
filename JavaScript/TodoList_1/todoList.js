@@ -11,6 +11,11 @@ while(input !== "quit"){
 		//ask for new todo
 		var newTodo = prompt("Enter new todo");
 		todos.push(newTodo);
+	}else if(input ==="delete"){
+		// ask for index of item to delete
+		var index = propmt("Enter the index of item to delete.");
+		//delete item with matching index
+		todos.splice(index,1);
 	}
 	input = prompt("What would you like to do?");
 }
