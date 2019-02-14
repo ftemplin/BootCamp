@@ -4,8 +4,8 @@ var todos = ["Walk Dog"];
 var input = prompt("What would you like to do?");
 while(input !== "quit"){
 	if(input === "list"){
-		todos.forEach(function(todo){
-		console.log(todo);
+		todos.forEach(function(todo, i){
+		console.log(todo + " : " + i);
 	});
 	}else if(input === "new"){
 		//ask for new todo
