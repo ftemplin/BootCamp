@@ -13,7 +13,7 @@ while(input !== "quit"){
 		todos.push(newTodo);
 	}else if(input ==="delete"){
 		// ask for index of item to delete
-		var index = propmt("Enter the index of item to delete.");
+		var index = prompt("Enter the index of item to delete.");
 		//delete item with matching index
 		todos.splice(index,1);
 	}
