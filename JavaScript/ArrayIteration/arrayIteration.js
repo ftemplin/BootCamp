@@ -60,3 +60,11 @@ function sumArray(arr){
  //Write a function max() that accepts an array of numbers 
  //and returns the maximum number in the array
 
+function max(arr){
+	var maximum = arr[0];
+	for(var i = 1; i < arr.length; i++){
+		if(arr[i] > maximum){
+		max = arr[i];
+		}
+	}
+}
