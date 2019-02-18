@@ -95,3 +95,9 @@ function myForEach(arr, func) {
 
 // to operate the function input myForEach(colors, alert) 
 // this will alert each item in the colors array.
+
+myForEach (colors, function(color){
+	console.log(color);
+});
+
+
