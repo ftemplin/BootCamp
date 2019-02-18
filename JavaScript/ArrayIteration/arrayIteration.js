@@ -64,9 +64,9 @@ function max(arr){
 	var maximum = arr[0];
 	for(var i = 1; i < arr.length; i++){
 		if(arr[i] > maximum){
-		max = arr[i];
+		maximum = arr[i];
 		}
 	}
-	return = maximum;
+	return maximum;
 }
 
