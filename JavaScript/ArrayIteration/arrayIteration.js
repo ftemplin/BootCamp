@@ -67,4 +67,6 @@ function max(arr){
 		max = arr[i];
 		}
 	}
+	return = maximum;
 }
+
