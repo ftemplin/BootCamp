@@ -14,13 +14,13 @@ console.log("connected to array iteration")
 // write a function to print reverse for a given set of array 
 //items 1,2,3,4. Print them out as 4,3,2,1
 
-function printReverse(arr){
-	for(var i = arr.length -1; i >= 0; i--){
-		console.log(arr[i]);
-	}
-}
+// function printReverse(arr){
+// 	for(var i = arr.length -1; i >= 0; i--){
+// 		console.log(arr[i]);
+// 	}
+// }
 
-printReverse([1,2,3,4,5])
+//printReverse([1,2,3,4,5])
 
 
 //**** isUniform starts here
@@ -29,15 +29,15 @@ printReverse([1,2,3,4,5])
 //isUniform ([1,1,1,1]) = true
 //isUniform ([2,1,1,1,]) = false
 
-function isUniform(arr){
-	var first = arr[0];
-	for(var i = 1; i < arr.length; i++){
-		if(arr[i] !== first){
-			return false;
-			}
-		}
-		return true;
-}
+// function isUniform(arr){
+// 	var first = arr[0];
+// 	for(var i = 1; i < arr.length; i++){
+// 		if(arr[i] !== first){
+// 			return false;
+// 			}
+// 		}
+// 		return true;
+// }
 
 //var x = array [0]
 // while array[i].value != " "
@@ -48,25 +48,32 @@ function isUniform(arr){
 //Write a function sumArray() that accepts an array of 
 //numbers and returns the sum of all numbers in the array.
 
-function sumArray(arr){
-	var total = 0
-	arr.forEach(function(element){
-		total += element;
-	});
-	return total;
-}
+// function sumArray(arr){
+// 	var total = 0
+// 	arr.forEach(function(element){
+// 		total += element;
+// 	});
+// 	return total;
+// }
 
  // max()
  //Write a function max() that accepts an array of numbers 
  //and returns the maximum number in the array
 
-function max(arr){
-	var maximum = arr[0];
-	for(var i = 1; i < arr.length; i++){
-		if(arr[i] > maximum){
-		maximum = arr[i];
-		}
-	}
-	return maximum;
-}
+// function max(arr){
+// 	var maximum = arr[0];
+// 	for(var i = 1; i < arr.length; i++){
+// 		if(arr[i] > maximum){
+// 		maximum = arr[i];
+// 		}
+// 	}
+// 	return ("The maximum value in the array is " + maximum);
+// }
 
+// foreach
+//javaScript provides an easy built-in way of iterating over an array; ForEach
+// this function is not working aas intended
+// var num = [1,2,3,4]
+// num.forEach(function(num){
+// 	console.log(num);
+// });
