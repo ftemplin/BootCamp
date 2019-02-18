@@ -73,7 +73,25 @@ console.log("connected to array iteration")
 // foreach
 //javaScript provides an easy built-in way of iterating over an array; ForEach
 // this function is not working aas intended
-// var num = [1,2,3,4]
-// num.forEach(function(num){
+
+// var nums = [1,2,3,4]
+// nums.forEach(function(num){
 // 	console.log(num);
 // });
+
+// myForEach(nums, function(num){
+// 	console.log(num);
+// });
+
+var colors = ["Red", "Orange", "Blue", "Purple"]
+
+function myForEach(arr, func) {
+	//loop throgh array
+	for (var i = 0; i < arr.length; i++){
+		//call func() for each item in array
+		func(arr[i]);
+	}
+}
+
+// to operate the function input myForEach(colors, alert) 
+// this will alert each item in the colors array.
