@@ -15,7 +15,57 @@
 	</ul>
 
 	<div id="methods"><h2>What methods are</h2><br>
-		<p><h3>Example</h3>br
+		<p><h3>Example</h3><br>
+			var obj = { <br>
+			name: "Chuck", <br>
+			age:45, <br>
+			isCool: false, <br>
+			friends: ["bob", "tina"], <br>
+			add: function (x,y){ <br>
+			return x+y; <br>
+				}<br>
+			}<br>
+			<h4>// Methods are functions inside of an object</h4>
+			<p>To call the function we must reference it in the obj <br>
+				like this obj.add(x,y)<br>
+				obj(is the method)add(is the method, the function in the object)<br>
+				This is the samr as console(the object).log(the method)<br>
+				Why do we add functions to the object and not jsut keep them separate <br>
+				functions can be named the same but specifc to a object. Such as <br>
+				var dog = {}; <br>
+				dog.speak{<br>
+				return "woof!";<br>
+			}  <br>
+				var cat = {};<br>
+				cat.speak{<br>
+				return "Meow!"; <br>
+			}<br>
+			The function speak has a specific value to return depending on wich function it is in. <br>
+			This also avoids namespace collisions wich would be having to versions of <br>the function speak outside of a object. the last value would be the only <br>one returned when the function is called. <br>
+			function speak { <br>
+				return "Meow"; <br>
+				} <br>
+			Function speak{
+				return "Woof!"; <br>
+				}<br>
+				In this case the only value for speak(); would be "Woof!" <br>
+			</p>
+			<p>
+				Undersore.js library has many functions grouped under the object _ <br>
+			</p>
+			<p>
+				<h3>The key word <i>this</i></h3> <br>
+				Creating an object with an array in it such as: <br>
+				var comments = {}; (this is the object)<br>
+				comments.data = ["Good job", "Way to go", "Nice Try", "Better Luck Next Time"]; (This is the data array in comments object)<br>
+				If you wanted a function to print out each of the elements in the array(data) <br>
+				You would create a print function in the the comments array: <br>
+				comments.print = function(){ <br>
+					this.data.forEach(function (el){ <br>
+					console.log(el); <br>
+					}); <br>
+				} <br>
+			</p>
 		</p>
 	
 	</div>
