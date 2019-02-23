@@ -38,15 +38,15 @@ var movies = [
     }
     ]
 
-    // Console log tyhe list of objects and a statement of watched or not seen
-    movies.forEach(function(movie){
+// Console log tyhe list of objects and a statement of watched or not seen
+movies.forEach(function(movie){
 var result = "you have ";
-if(movie.hasWatched){
-result += "watched ";
-console.log
-}else {
-result += "not seen ";
-}
+	if(movie.hasWatched){
+	result += "watched ";
+	console.log
+	}else {
+	result += "not seen ";
+	}
 result += "\"" + movie.title + "\" ";
 result += movie.rating + " stars"; 
 console.log(result)
