@@ -1,0 +1,1 @@
+alert("contected to methods.js")
