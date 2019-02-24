@@ -1,6 +1,7 @@
 console.log("Connected to introToDom.js");
 
-var h3 = document.querySelector("h3");
+var h3 = document.querySelectorAll("h3")[0];
+
 //var h3 = document.querySelectorAll("h3");
 
 h3.style.color = "green";
