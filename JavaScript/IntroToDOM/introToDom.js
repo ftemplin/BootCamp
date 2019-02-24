@@ -17,3 +17,9 @@ setInterval(function(){
 	}
 	isBlue = !isBlue;
 }, 1000);
+
+var byId = document.getElementById("byId");
+byId.style.color ="red";
+
+var bold = document.getElementsByClassName("bold");
+bold.style.color = "purple";
