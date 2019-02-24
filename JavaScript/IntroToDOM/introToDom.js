@@ -1,6 +1,7 @@
 console.log("Connected to introToDom.js");
 
 var h3 = document.querySelector("h3");
+//var h3 = document.querySelectorAll("h3");
 
 h3.style.color = "green";
 
@@ -22,4 +23,4 @@ var byId = document.getElementById("byId");
 byId.style.color ="red";
 
 var bold = document.getElementsByClassName("bold");
-bold.style.color = "purple";
+//bold.style.color = "purple";
