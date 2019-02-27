@@ -9,8 +9,10 @@ document.querySelector("#content2 button").addEventListener("click", function(){
 	//if(#content )
 	if(isPurple){
 		document.body.style.background = "white";
+		isPurple = false;
 	}else{
 		document.body.style.background = "purple";
+		isPurple = true;
 	}
 	
 });
