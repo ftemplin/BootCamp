@@ -46,5 +46,6 @@ resetButton.addEventListener("click", function(){
 	p1Display.classList.remove("winner");
 	var p2Score = 0;
 	p2Display.textContent = p2Score;
+	p2Display.classList.remove("winner");
 	gameOver = false;
 });
