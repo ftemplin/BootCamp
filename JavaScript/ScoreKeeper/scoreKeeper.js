@@ -9,7 +9,7 @@ p1Button.addEventListener("click", function(){
 	//alert("p1 clicked!");
 	console.log("p1Score");
 	p1Score++;
-	h1.tectContent = p1Score;
+	h1.textContent = p1Score;
 });
 
 p2Button.addEventListener("click", function(){
